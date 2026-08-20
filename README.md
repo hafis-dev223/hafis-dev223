@@ -1,18 +1,19 @@
-<div align="center">
+**<div align="center">
 
-  <!-- Premium Obsidian Gold Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=5,12,20,30&height=220&section=header&text=HAFIS%20DEV&fontSize=60&fontColor=D4AF37&stroke=00E676&strokeWidth=1&animation=fadeIn" width="100%" />
+  <!-- Pixel Art Anime Fighting Game Banner -->
+  <img src="https://user-images.githubusercontent.com/73390252/125866186-0a2dcd68-9a3d-4c33-8a3d-d6a0f69a5382.gif" width="100%" alt="Pixel Art Game Fight Animation" />
 
-  <!-- Obsidian Typing SVG -->
-  <br />
+  <br /><br />
+
+  <!-- Pixel Game Typing Effect -->
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=21&pause=800&color=D4AF37&center=true&vCenter=true&width=620&lines=%E2%9A%A1+Software+Engineering+%7C+Java+%26+Kotlin;%F0%9F%92%BB+PostgreSQL+%E2%80%A2+Flutter+%E2%80%A2+Linux;%F0%9F%9B%A1%EF%B8%8F+Exploring+Cyber+Security+%26+Systems" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=15&pause=800&color=00E676&center=true&vCenter=true&width=620&lines=GAME+START!+PLAYER+1:+HAFIS;JAVA+%26+KOTLIN+DEVELOPER;BUILDING+SYSTEMS+%26+POSTGRESQL;LEVEL+UP+YOUR+CODE!" alt="Pixel Typing SVG" />
   </a>
 
-  <p>⚜️ ─── ⋆⋅ 💻 ⋅⋆ ─── ⚜️</p>
+  <p>🎮 ─── ⋆⋅ [ PRESS START ] ⋅⋆ ─── 🎮</p>
 
-  <!-- Interactive 3D Skill Icons Box -->
-  <h3>⚡ Core Stack & Tools</h3>
+  <!-- Pixel Skill Icons Box -->
+  <h3>⚔️ Inventory & Player Stats</h3>
   
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=java,kotlin,postgres,flutter,dart,linux,git,bash,vscode&theme=dark&perline=5" />
@@ -20,7 +21,7 @@
 
   <br /><br />
 
-  <!-- Premium Custom Border Badges -->
+  <!-- Retro Gaming Badges -->
   <p>
     <img src="https://img.shields.io/badge/Java-111827?style=for-the-badge&logo=openjdk&logoColor=D4AF37" />
     <img src="https://img.shields.io/badge/Kotlin-111827?style=for-the-badge&logo=kotlin&logoColor=00E676" />
@@ -31,9 +32,9 @@
 
   <br />
 
-  <!-- Sleek Emerald Activity Graph -->
+  <!-- Retro Pixel Activity Matrix -->
   <p align="center">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=hafis-dev223&theme=github-compact&bg_color=0D1117&color=00E676&line=D4AF37&point=00E5FF&area=true&hide_border=false" width="100%" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=hafis-dev223&theme=react-dark&bg_color=0D1117&color=00E676&line=00E5FF&point=D4AF37&area=true&hide_border=false" width="100%" />
   </p>
 
-</div>
+</div>**
