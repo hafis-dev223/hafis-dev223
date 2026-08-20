@@ -26,7 +26,7 @@
 
     public void motivation(){
       if(process){
-         returun " enjoy your process";
+         return " enjoy your process";
 
       } else {
          return " Don't give up; we have to fight against laziness.";
