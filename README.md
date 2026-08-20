@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/arcade-banner.svg" width="100%" alt="Arcade Banner" />
+<img src="assets/3d-tech-banner.svg" width="100%" alt="3D Tech Banner" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=20&duration=3000&pause=800&color=FF2D95&center=true&vCenter=true&width=600&lines=HELLO+WORLD%2C+I'M+HAFIS;PLAYER+1+HAS+ENTERED+THE+GAME;LOADING+SKILLS...+PLEASE+WAIT" alt="Typing SVG" />
 
@@ -46,13 +46,3 @@ Lagi nyemplung ke dua dunia sekaligus: **Cyber Security** & **Software Engineeri
 `INSERT COIN TO CONTINUE...`
 
 </div>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=hafis-dev223&theme=tokyonight&hide_border=true&background=0d1117&ring=7F52FF&fire=7F52FF" alt="streak"/>
-
-</div>
-
-<br>
-
-
-<br>
-
