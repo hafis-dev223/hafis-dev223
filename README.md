@@ -1,78 +1,39 @@
-<h1 align="center">Hi there, I'm [Nama Kamu] 👋</h1>
+<div align="center">
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00F7FF&center=true&vCenter=true&width=500&lines=Software+Developer;Java+%7C+C+%2F+C%2B%2B+%7C+Kotlin+%7C+Python;Always+Learning+%F0%9F%9A%80" alt="Typing SVG" />
-</p>
+  <!-- Premium Obsidian Gold Header Banner -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=5,12,20,30&height=220&section=header&text=HAFIS%20DEV&fontSize=60&fontColor=D4AF37&stroke=00E676&strokeWidth=1&animation=fadeIn" width="100%" />
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=USERNAME&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
-  <img src="https://img.shields.io/github/followers/USERNAME?label=Followers&style=social" alt="followers" />
-</p>
+  <!-- Obsidian Typing SVG -->
+  <br />
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=21&pause=800&color=D4AF37&center=true&vCenter=true&width=620&lines=%E2%9A%A1+Software+Engineering+%7C+Low-Level+%26+Mobile;%F0%9F%92%BB+C+%E2%80%A2+C%2B%2B+%E2%80%A2+Java+%E2%80%A2+Kotlin+%E2%80%A2+Python;%F0%9F%9B%A1%EF%B8%8F+Exploring+Cyber+Security+%26+Systems" alt="Typing SVG" />
+  </a>
 
----
+  <p>⚜️ ─── ⋆⋅ 💻 ⋅⋆ ─── ⚜️</p>
 
-### 🚀 About Me
+  <!-- Interactive 3D Skill Icons Box -->
+  <h3>⚡ Core Arsenal & Languages</h3>
+  
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=c,cpp,java,kotlin,py,flutter,dart,postgres,linux,git,bash,vscode&theme=dark&perline=6" />
+  </a>
 
-- 🔭 Sedang mengerjakan **[nama project]**
-- 🌱 Lagi belajar **[teknologi baru]**
-- 💬 Tanya-tanya soal **Java / C / C++ / Kotlin / Python**
-- 📫 Cara menghubungi: **[email/linkedin]**
-- ⚡ Fun fact: **[isi sendiri, biar personal]**
+  <br /><br />
 
----
+  <!-- Premium Custom Border Badges -->
+  <p>
+    <img src="https://img.shields.io/badge/C-111827?style=for-the-badge&logo=c&logoColor=00E5FF" />
+    <img src="https://img.shields.io/badge/C%2B%2B-111827?style=for-the-badge&logo=cplusplus&logoColor=00E5FF" />
+    <img src="https://img.shields.io/badge/Java-111827?style=for-the-badge&logo=openjdk&logoColor=D4AF37" />
+    <img src="https://img.shields.io/badge/Kotlin-111827?style=for-the-badge&logo=kotlin&logoColor=00E676" />
+    <img src="https://img.shields.io/badge/Python-111827?style=for-the-badge&logo=python&logoColor=D4AF37" />
+  </p>
 
-### 🛠️ Tech Stack
+  <br />
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-</p>
+  <!-- Sleek Emerald Activity Graph -->
+  <p align="center">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=hafis-dev223&theme=github-compact&bg_color=0D1117&color=00E676&line=D4AF37&point=00E5FF&area=true&hide_border=false" width="100%" />
+  </p>
 
-<details>
-<summary>🧰 Tools & Platform</summary>
-<br>
-<p align="left">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
-</p>
-</details>
-
----
-
-### 📊 GitHub Stats
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=USERNAME&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=USERNAME&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=USERNAME&theme=tokyonight&hide_border=true" alt="streak stats" />
-</p>
-
----
-
-### 🏆 GitHub Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=USERNAME&theme=tokyonight&no-frame=true&row=1&column=6" />
-</p>
-
----
-
-### 🌐 Connect With Me
-
-<p align="left">
-  <a href="https://linkedin.com/in/USERNAME" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://instagram.com/USERNAME" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
-  <a href="mailto:email@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-</p>
-
----
-
-<p align="center"><i>⭐️ From <a href="https://github.com/USERNAME">USERNAME</a> — thanks for stopping by!</i></p>
+</div>
