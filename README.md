@@ -82,11 +82,6 @@
 
 <br>
 
-## 🏆 Trophies
-
-<div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=hafis-dev223&theme=tokyonight&no-frame=true&row=1&column=6" alt="trophies"/>
-</div>
 
 <br>
 
