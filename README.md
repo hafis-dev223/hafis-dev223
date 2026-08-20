@@ -1,3 +1,3 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/hafis-dev223/hafis-dev223/output/pacman.svg" alt="Pacman Contribution Graph" />
+  <img src="https://github.com/hafis-dev223/hafis-dev223/blob/output/pacman.svg?raw=true" alt="Pacman Contribution" />
 </div>
