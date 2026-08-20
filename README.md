@@ -18,14 +18,18 @@
 
 ## 👨‍💻 About Me
 
-```kotlin
-class Hafis : Developer {
-    override val stack = listOf("Java", "Kotlin", "PostgreSQL")
-    override val currentlyLearning = "..."
-    override val funFact = "..."
-
-    fun sayHi() = println("Thanks for visiting my profile! 🚀")
+```java
+   public class Hafis implements Developer {
+    private String[] stack = {"Java", "Kotlin", "PostgreSQL"};
+    private String currentlyLearning = "...";
+    private String funFact = "...";
+ 
+    public void sayHi() {
+        System.out.println("Thanks for visiting my profile! 🚀");
+    }
 }
+
+
 ```
 
 <br>
