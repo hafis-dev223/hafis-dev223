@@ -5,57 +5,41 @@
       <stop offset="60%" stop-color="#0d0426"/>
       <stop offset="100%" stop-color="#1a063a"/>
     </linearGradient>
-    <radialGradient id="javaG" cx="35%" cy="30%" r="75%">
-      <stop offset="0%" stop-color="#ffb26b"/>
-      <stop offset="55%" stop-color="#ff7a30"/>
-      <stop offset="100%" stop-color="#9c3d00"/>
-    </radialGradient>
-    <radialGradient id="kotlinG" cx="35%" cy="30%" r="75%">
-      <stop offset="0%" stop-color="#c299ff"/>
-      <stop offset="45%" stop-color="#7f52ff"/>
-      <stop offset="100%" stop-color="#3d1f8f"/>
-    </radialGradient>
-    <radialGradient id="pgG" cx="35%" cy="30%" r="75%">
-      <stop offset="0%" stop-color="#8fb4ff"/>
-      <stop offset="50%" stop-color="#3567e0"/>
-      <stop offset="100%" stop-color="#122b6b"/>
-    </radialGradient>
     <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="1.4"/>
     </filter>
   </defs>
 
   <style>
-    @keyframes floatY { 0%,100% { transform: translateY(0px); } 50% { transform: translateY(-14px); } }
-    @keyframes floatY2 { 0%,100% { transform: translateY(-6px); } 50% { transform: translateY(10px); } }
-    @keyframes floatY3 { 0%,100% { transform: translateY(-10px); } 50% { transform: translateY(6px); } }
-    @keyframes spin3d { 0%,100% { transform: scaleX(1); } 50% { transform: scaleX(0.12); } }
-    @keyframes shadowBreathe { 0%,100% { transform: scaleX(1); opacity:0.45; } 50% { transform: scaleX(0.55); opacity:0.2; } }
     @keyframes titleFloat { 0%,100% { transform: translateY(0px); } 50% { transform: translateY(-8px); } }
-    @keyframes glowPulse { 0%,100% { opacity: 0.5; } 50% { opacity: 1; } }
+    @keyframes glowPulse { 0%,100% { opacity: 0.6; } 50% { opacity: 1; } }
     @keyframes gridMove { 0% { transform: translateY(0); } 100% { transform: translateY(40px); } }
     @keyframes twinkle { 0%,100% { opacity: 0.9; } 50% { opacity: 0.2; } }
+    @keyframes idleA { 0%,100% { transform: translateY(0px); } 50% { transform: translateY(-6px); } }
+    @keyframes idleB { 0%,100% { transform: translateY(-3px); } 50% { transform: translateY(5px); } }
+    @keyframes idleC { 0%,100% { transform: translateY(-5px); } 50% { transform: translateY(3px); } }
+    @keyframes armWave { 0%,100% { transform: rotate(0deg); } 50% { transform: rotate(6deg); } }
+    @keyframes shadowBreathe { 0%,100% { transform: scaleX(1); opacity:0.4; } 50% { transform: scaleX(0.7); opacity:0.2; } }
+    @keyframes steam { 0%,100% { opacity: 0.8; transform: translateY(0px); } 50% { opacity: 0.2; transform: translateY(-6px); } }
 
-    .coinWrap { transform-box: fill-box; transform-origin: center; }
-    .coin1 { animation: floatY 3.2s ease-in-out infinite; }
-    .coin2 { animation: floatY2 3.8s ease-in-out infinite; }
-    .coin3 { animation: floatY3 3.5s ease-in-out infinite; }
-    .spin1 { animation: spin3d 2.6s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
-    .spin2 { animation: spin3d 3.1s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
-    .spin3 { animation: spin3d 2.9s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
-    .sh1 { animation: shadowBreathe 3.2s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
-    .sh2 { animation: shadowBreathe 3.8s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
-    .sh3 { animation: shadowBreathe 3.5s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .pixelFont { font-family: 'Courier New', monospace; font-weight: bold; }
     .titleBlock { animation: titleFloat 4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
     .glow { animation: glowPulse 2.4s ease-in-out infinite; }
     .grid { animation: gridMove 1.4s linear infinite; }
     .star { animation: twinkle 2.5s ease-in-out infinite; }
-    .pixelFont { font-family: 'Courier New', monospace; font-weight: bold; }
+    .charA { animation: idleA 2.4s ease-in-out infinite; transform-box: fill-box; transform-origin: bottom center; }
+    .charB { animation: idleB 2.8s ease-in-out infinite; transform-box: fill-box; transform-origin: bottom center; }
+    .charC { animation: idleC 2.6s ease-in-out infinite; transform-box: fill-box; transform-origin: bottom center; }
+    .armR { animation: armWave 1.6s ease-in-out infinite; transform-box: fill-box; transform-origin: top center; }
+    .sh { transform-box: fill-box; transform-origin: center; }
+    .shA { animation: shadowBreathe 2.4s ease-in-out infinite; }
+    .shB { animation: shadowBreathe 2.8s ease-in-out infinite; }
+    .shC { animation: shadowBreathe 2.6s ease-in-out infinite; }
+    .steamPuff { animation: steam 2s ease-in-out infinite; }
   </style>
 
   <rect width="900" height="400" fill="url(#bg)"/>
 
-  <!-- stars -->
   <g fill="#ffffff">
     <circle class="star" cx="60" cy="40" r="1.6" style="animation-delay:.2s"/>
     <circle class="star" cx="150" cy="80" r="1.2" style="animation-delay:.9s"/>
@@ -63,11 +47,11 @@
     <circle class="star" cx="720" cy="100" r="1.2" style="animation-delay:1.3s"/>
     <circle class="star" cx="850" cy="140" r="1.4" style="animation-delay:.7s"/>
     <circle class="star" cx="40" cy="150" r="1.4" style="animation-delay:1.6s"/>
+    <circle class="star" cx="450" cy="30" r="1.3" style="animation-delay:1s"/>
   </g>
 
-  <!-- perspective grid floor -->
+  <clipPath id="floorClip"><rect x="0" y="300" width="900" height="100"/></clipPath>
   <g clip-path="url(#floorClip)">
-    <clipPath id="floorClip"><rect x="0" y="300" width="900" height="100"/></clipPath>
     <g class="grid" stroke="#ff2d95" stroke-width="1" opacity="0.35">
       <line x1="0" y1="300" x2="900" y2="300"/>
       <line x1="0" y1="320" x2="900" y2="320"/>
@@ -90,47 +74,72 @@
   <g class="titleBlock">
     <text x="454" y="94" text-anchor="middle" class="pixelFont" font-size="58" fill="#3d0f66">HAFIS</text>
     <text x="450" y="90" text-anchor="middle" class="pixelFont" font-size="58" fill="#7c1fb8">HAFIS</text>
-    <text x="446" y="86" text-anchor="middle" class="pixelFont" font-size="58" fill="#ff2d95" class="glow">HAFIS</text>
+    <text x="446" y="86" text-anchor="middle" class="pixelFont glow" font-size="58" fill="#ff2d95">HAFIS</text>
     <text x="450" y="118" text-anchor="middle" class="pixelFont" font-size="15" fill="#4bf0ff" letter-spacing="4">SOFTWARE ENGINEER · CYBER SECURITY</text>
   </g>
 
-  <!-- JAVA coin -->
-  <g class="coin1 coinWrap" transform="translate(190,240)">
-    <ellipse class="sh1" cx="0" cy="72" rx="55" ry="12" fill="#000000" filter="url(#soft)"/>
-    <g class="spin1">
-      <circle r="60" fill="url(#javaG)" stroke="#5a2600" stroke-width="3"/>
-      <path d="M -14 6 q -10 12 8 18 q 22 6 34 -4 q 6 -6 -4 -10" fill="none" stroke="#5a2600" stroke-width="4" stroke-linecap="round"/>
-      <path d="M -6 -6 q 14 -14 26 4" fill="none" stroke="#fff3e6" stroke-width="4" stroke-linecap="round"/>
-      <path d="M 6 -14 q 14 -12 24 2" fill="none" stroke="#fff3e6" stroke-width="4" stroke-linecap="round"/>
-      <rect x="-22" y="4" width="34" height="22" rx="3" fill="#fff3e6" stroke="#5a2600" stroke-width="3"/>
-      <path d="M 12 8 q 16 0 16 10 q 0 10 -16 10" fill="none" stroke="#fff3e6" stroke-width="4"/>
+  <!-- JAVA character -->
+  <g transform="translate(190,150)">
+    <ellipse class="sh shA" cx="0" cy="150" rx="45" ry="10" fill="#000000" filter="url(#soft)"/>
+    <g class="charA">
+      <rect x="8" y="10" width="4" height="4" fill="#ffd8a8" opacity="0.8" class="steamPuff"/>
+      <rect x="16" y="8" width="4" height="4" fill="#ffd8a8" opacity="0.6" class="steamPuff" style="animation-delay:.4s"/>
+      <rect x="-16" y="-6" width="32" height="10" rx="1" fill="#fff3e6" stroke="#5a2600" stroke-width="2"/>
+      <rect x="-20" y="0" width="40" height="34" fill="#ffcf9e" stroke="#5a2600" stroke-width="2"/>
+      <rect x="-12" y="10" width="6" height="6" fill="#5a2600"/>
+      <rect x="6" y="10" width="6" height="6" fill="#5a2600"/>
+      <rect x="-6" y="20" width="12" height="3" fill="#5a2600"/>
+      <rect x="-26" y="36" width="52" height="46" fill="#ff7a30" stroke="#5a2600" stroke-width="2"/>
+      <rect x="-16" y="46" width="32" height="10" fill="#fff3e6" stroke="#5a2600" stroke-width="1.5"/>
+      <g class="armR">
+        <rect x="-40" y="40" width="16" height="14" fill="#ff7a30" stroke="#5a2600" stroke-width="2"/>
+      </g>
+      <rect x="24" y="40" width="16" height="14" fill="#ff7a30" stroke="#5a2600" stroke-width="2"/>
+      <rect x="-20" y="82" width="16" height="30" fill="#3d1c00" stroke="#000" stroke-width="1.5"/>
+      <rect x="4" y="82" width="16" height="30" fill="#3d1c00" stroke="#000" stroke-width="1.5"/>
     </g>
   </g>
   <text x="190" y="330" text-anchor="middle" class="pixelFont" font-size="16" fill="#ff9d5c">JAVA</text>
 
-  <!-- KOTLIN coin -->
-  <g class="coin2 coinWrap" transform="translate(450,230)">
-    <ellipse class="sh2" cx="0" cy="82" rx="55" ry="12" fill="#000000" filter="url(#soft)"/>
-    <g class="spin2">
-      <circle r="60" fill="url(#kotlinG)" stroke="#25105c" stroke-width="3"/>
-      <path d="M -22 -22 L 0 0 L -22 22 Z" fill="#e8ddff"/>
-      <path d="M -22 -22 L 24 -22 L 0 0 Z" fill="#f4eeff"/>
-      <path d="M -22 22 L 24 22 L 0 0 L 24 -22 Z" fill="#c9b6ff" opacity="0.9"/>
+  <!-- KOTLIN character -->
+  <g transform="translate(450,150)">
+    <ellipse class="sh shB" cx="0" cy="150" rx="45" ry="10" fill="#000000" filter="url(#soft)"/>
+    <g class="charB">
+      <rect x="-20" y="0" width="40" height="34" fill="#e8ddff" stroke="#3d1f8f" stroke-width="2"/>
+      <rect x="-12" y="10" width="6" height="6" fill="#3d1f8f"/>
+      <rect x="6" y="10" width="6" height="6" fill="#3d1f8f"/>
+      <rect x="-6" y="20" width="12" height="3" fill="#3d1f8f"/>
+      <rect x="-26" y="36" width="52" height="46" fill="#7f52ff" stroke="#3d1f8f" stroke-width="2"/>
+      <path d="M -10 46 L 4 60 L -10 74 Z" fill="#f4eeff"/>
+      <path d="M -10 46 L 10 46 L -10 66 Z" fill="#c9b6ff"/>
+      <rect x="-40" y="40" width="16" height="14" fill="#7f52ff" stroke="#3d1f8f" stroke-width="2"/>
+      <g class="armR">
+        <rect x="24" y="40" width="16" height="14" fill="#7f52ff" stroke="#3d1f8f" stroke-width="2"/>
+      </g>
+      <rect x="-20" y="82" width="16" height="30" fill="#241056" stroke="#000" stroke-width="1.5"/>
+      <rect x="4" y="82" width="16" height="30" fill="#241056" stroke="#000" stroke-width="1.5"/>
     </g>
   </g>
   <text x="450" y="330" text-anchor="middle" class="pixelFont" font-size="16" fill="#c299ff">KOTLIN</text>
 
-  <!-- POSTGRESQL coin -->
-  <g class="coin3 coinWrap" transform="translate(710,240)">
-    <ellipse class="sh3" cx="0" cy="72" rx="55" ry="12" fill="#000000" filter="url(#soft)"/>
-    <g class="spin3">
-      <circle r="60" fill="url(#pgG)" stroke="#0a1a40" stroke-width="3"/>
-      <ellipse cx="-6" cy="4" rx="30" ry="26" fill="#eaf1ff"/>
-      <path d="M 20 -6 q 20 -4 22 14 q 1 12 -14 10 q 4 -12 -8 -24 Z" fill="#eaf1ff"/>
-      <circle cx="-16" cy="-2" r="4" fill="#122b6b"/>
-      <circle cx="4" cy="-2" r="4" fill="#122b6b"/>
-      <path d="M -22 18 q 6 10 16 4" fill="none" stroke="#122b6b" stroke-width="3" stroke-linecap="round"/>
-      <path d="M -2 20 l -4 14 M 6 20 l -2 14 M 14 18 l 0 12" stroke="#eaf1ff" stroke-width="4" stroke-linecap="round"/>
+  <!-- POSTGRESQL character -->
+  <g transform="translate(710,150)">
+    <ellipse class="sh shC" cx="0" cy="150" rx="45" ry="10" fill="#000000" filter="url(#soft)"/>
+    <g class="charC">
+      <rect x="16" y="4" width="10" height="8" fill="#8fb4ff" stroke="#122b6b" stroke-width="1.5"/>
+      <rect x="-26" y="4" width="10" height="8" fill="#8fb4ff" stroke="#122b6b" stroke-width="1.5"/>
+      <rect x="-20" y="0" width="40" height="34" fill="#cfe0ff" stroke="#122b6b" stroke-width="2"/>
+      <rect x="-12" y="10" width="6" height="6" fill="#122b6b"/>
+      <rect x="6" y="10" width="6" height="6" fill="#122b6b"/>
+      <rect x="-4" y="20" width="8" height="6" fill="#122b6b"/>
+      <rect x="-26" y="36" width="52" height="46" fill="#3567e0" stroke="#122b6b" stroke-width="2"/>
+      <rect x="-16" y="46" width="32" height="10" fill="#cfe0ff" stroke="#122b6b" stroke-width="1.5"/>
+      <rect x="-40" y="40" width="16" height="14" fill="#3567e0" stroke="#122b6b" stroke-width="2"/>
+      <g class="armR">
+        <rect x="24" y="40" width="16" height="14" fill="#3567e0" stroke="#122b6b" stroke-width="2"/>
+      </g>
+      <rect x="-20" y="82" width="16" height="30" fill="#0a1a40" stroke="#000" stroke-width="1.5"/>
+      <rect x="4" y="82" width="16" height="30" fill="#0a1a40" stroke="#000" stroke-width="1.5"/>
     </g>
   </g>
   <text x="710" y="330" text-anchor="middle" class="pixelFont" font-size="16" fill="#8fb4ff">POSTGRESQL</text>
