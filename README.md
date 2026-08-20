@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/3d-tech-banner.svg" width="100%" alt="3D Tech Banner" />
+
 
 <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=20&duration=3000&pause=800&color=FF2D95&center=true&vCenter=true&width=600&lines=HELLO+WORLD%2C+I'M+HAFIS;PLAYER+1+HAS+ENTERED+THE+GAME;LOADING+SKILLS...+PLEASE+WAIT" alt="Typing SVG" />
 
