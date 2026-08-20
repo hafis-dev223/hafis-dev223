@@ -8,21 +8,10 @@ on:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
-    
     steps:
-      - name: generate pacman-contribution-graph.svg
-        uses: Platane/snk/svg-only@v3
+      - uses: actions/checkout@v3
+      - uses: lowlighter/metrics@latest
         with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            pacman-output/pacman-contribution-graph.svg?game=pacman
-            pacman-output/pacman-contribution-graph-dark.svg?game=pacman&palette=github-dark
-
-      - name: push pacman-contribution-graph.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: pacman-output
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
