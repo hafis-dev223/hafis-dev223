@@ -71,8 +71,6 @@
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=hafis-dev223&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7F52FF&icon_color=7F52FF" alt="stats"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hafis-dev223&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7F52FF" alt="top langs"/>
 
 <br>
 
