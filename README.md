@@ -1,3 +1,5 @@
-<div align="center">
-  <img src="https://github.com/hafis-dev223/hafis-dev223/raw/output/pacman-output/pacman.svg" alt="Pacman Game" />
-</div>
+<picture data-importer="pacman">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hafis-dev223/hafis-dev223/pacman-output/pacman-contribution-graph-dark.svg?game=pacman">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hafis-dev223/hafis-dev223/pacman-output/pacman-contribution-graph.svg?game=pacman">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/hafis-dev223/hafis-dev223/pacman-output/pacman-contribution-graph.svg?game=pacman">
+</picture>
