@@ -1,232 +1,138 @@
-
-<svg viewBox="0 0 480 240" xmlns="http://www.w3.org/2000/svg" font-family="'Courier New', monospace">
+<svg width="100%" height="400" viewBox="0 0 900 400" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
   <defs>
-    <style>
-      .bg { fill: #10091f; }
-      .floor { fill: #241a3d; }
-      .hpbg { fill: #2a2a2a; stroke: #000; stroke-width: 1; }
-    </style>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#05010f"/>
+      <stop offset="60%" stop-color="#0d0426"/>
+      <stop offset="100%" stop-color="#1a063a"/>
+    </linearGradient>
+    <radialGradient id="javaG" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#ffb26b"/>
+      <stop offset="55%" stop-color="#ff7a30"/>
+      <stop offset="100%" stop-color="#9c3d00"/>
+    </radialGradient>
+    <radialGradient id="kotlinG" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#c299ff"/>
+      <stop offset="45%" stop-color="#7f52ff"/>
+      <stop offset="100%" stop-color="#3d1f8f"/>
+    </radialGradient>
+    <radialGradient id="pgG" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#8fb4ff"/>
+      <stop offset="50%" stop-color="#3567e0"/>
+      <stop offset="100%" stop-color="#122b6b"/>
+    </radialGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1.4"/>
+    </filter>
   </defs>
 
-  <rect class="bg" x="0" y="0" width="480" height="240"/>
-  <rect class="floor" x="0" y="200" width="480" height="40"/>
-  <rect x="0" y="198" width="480" height="2" fill="#ff2e6b" opacity="0.6"/>
+  <style>
+    @keyframes floatY { 0%,100% { transform: translateY(0px); } 50% { transform: translateY(-14px); } }
+    @keyframes floatY2 { 0%,100% { transform: translateY(-6px); } 50% { transform: translateY(10px); } }
+    @keyframes floatY3 { 0%,100% { transform: translateY(-10px); } 50% { transform: translateY(6px); } }
+    @keyframes spin3d { 0%,100% { transform: scaleX(1); } 50% { transform: scaleX(0.12); } }
+    @keyframes shadowBreathe { 0%,100% { transform: scaleX(1); opacity:0.45; } 50% { transform: scaleX(0.55); opacity:0.2; } }
+    @keyframes titleFloat { 0%,100% { transform: translateY(0px); } 50% { transform: translateY(-8px); } }
+    @keyframes glowPulse { 0%,100% { opacity: 0.5; } 50% { opacity: 1; } }
+    @keyframes gridMove { 0% { transform: translateY(0); } 100% { transform: translateY(40px); } }
+    @keyframes twinkle { 0%,100% { opacity: 0.9; } 50% { opacity: 0.2; } }
 
-  <!-- HUD: HP bars -->
-  <g font-size="9" fill="#ffffff">
-    <text x="14" y="20">P1</text>
-    <rect class="hpbg" x="14" y="24" width="150" height="12"/>
-    <rect id="hpA" x="15" y="25" width="148" height="10" fill="#3ee83e">
-      <animate attributeName="width" values="148;148;148;104;104;104" keyTimes="0;0.3;0.45;0.55;0.7;1" dur="3.5s" repeatCount="indefinite"/>
-    </rect>
+    .coinWrap { transform-box: fill-box; transform-origin: center; }
+    .coin1 { animation: floatY 3.2s ease-in-out infinite; }
+    .coin2 { animation: floatY2 3.8s ease-in-out infinite; }
+    .coin3 { animation: floatY3 3.5s ease-in-out infinite; }
+    .spin1 { animation: spin3d 2.6s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .spin2 { animation: spin3d 3.1s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .spin3 { animation: spin3d 2.9s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .sh1 { animation: shadowBreathe 3.2s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .sh2 { animation: shadowBreathe 3.8s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .sh3 { animation: shadowBreathe 3.5s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .titleBlock { animation: titleFloat 4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .glow { animation: glowPulse 2.4s ease-in-out infinite; }
+    .grid { animation: gridMove 1.4s linear infinite; }
+    .star { animation: twinkle 2.5s ease-in-out infinite; }
+    .pixelFont { font-family: 'Courier New', monospace; font-weight: bold; }
+  </style>
 
-    <text x="466" y="20" text-anchor="end">P2</text>
-    <rect class="hpbg" x="316" y="24" width="150" height="12"/>
-    <rect id="hpB" x="317" y="25" width="0" height="10" fill="#3ee83e">
-      <animate attributeName="width" values="148;148;148;90;90;90" keyTimes="0;0.5;0.6;0.7;0.85;1" dur="3.5s" repeatCount="indefinite"
-        calcMode="discrete"/>
-      <animate attributeName="x" values="317" dur="3.5s" repeatCount="indefinite"/>
-    </rect>
+  <rect width="900" height="400" fill="url(#bg)"/>
+
+  <!-- stars -->
+  <g fill="#ffffff">
+    <circle class="star" cx="60" cy="40" r="1.6" style="animation-delay:.2s"/>
+    <circle class="star" cx="150" cy="80" r="1.2" style="animation-delay:.9s"/>
+    <circle class="star" cx="800" cy="50" r="1.6" style="animation-delay:.4s"/>
+    <circle class="star" cx="720" cy="100" r="1.2" style="animation-delay:1.3s"/>
+    <circle class="star" cx="850" cy="140" r="1.4" style="animation-delay:.7s"/>
+    <circle class="star" cx="40" cy="150" r="1.4" style="animation-delay:1.6s"/>
   </g>
 
-  <!-- Round/Fight text -->
-  <g id="roundText" text-anchor="middle" fill="#ffe600" stroke="#7a1500" stroke-width="1">
-    <text x="240" y="60" font-size="22" font-weight="bold" opacity="0">
-      ROUND 1
-      <animate attributeName="opacity" values="0;1;1;0;0;0;0" keyTimes="0;0.02;0.08;0.12;1;1;1" dur="3.5s" repeatCount="indefinite"/>
-    </text>
-    <text x="240" y="60" font-size="26" font-weight="bold" fill="#ff2e6b" opacity="0">
-      FIGHT!
-      <animate attributeName="opacity" values="0;0;0;1;1;0;0" keyTimes="0;0.1;0.13;0.16;0.24;0.28;1" dur="3.5s" repeatCount="indefinite"/>
-    </text>
-    <text x="240" y="110" font-size="30" font-weight="bold" fill="#ffe600" opacity="0">
-      K.O.!
-      <animate attributeName="opacity" values="0;0;0;0;1;1;0" keyTimes="0;0.6;0.68;0.72;0.78;0.95;1" dur="3.5s" repeatCount="indefinite"/>
-    </text>
-  </g>
-
-  <!-- Fighter A -->
-  <g id="fighterA">
-    <animateTransform attributeName="transform" type="translate"
-      values="40,110; 40,110; 130,110; 150,106; 150,114; 150,110; 130,110; 40,110; 40,110"
-      keyTimes="0; 0.14; 0.28; 0.5; 0.56; 0.62; 0.68; 0.85; 1"
-      dur="3.5s" repeatCount="indefinite"/>
-    <rect x="21" y="0" width="7" height="7" fill="#ffd3a8" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="28" y="0" width="7" height="7" fill="#ffd3a8" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="35" y="0" width="7" height="7" fill="#ffd3a8" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="42" y="0" width="7" height="7" fill="#ffd3a8" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="14" y="7" width="7" height="7" fill="#ffd3a8" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="21" y="7" width="7" height="7" fill="#ffd3a8" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="28" y="7" width="7" height="7" fill="#ffd3a8" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="35" y="7" width="7" height="7" fill="#ffd3a8" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="42" y="7" width="7" height="7" fill="#ffd3a8" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="49" y="7" width="7" height="7" fill="#ffd3a8" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="14" y="14" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="21" y="14" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="28" y="14" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="35" y="14" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="42" y="14" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="49" y="14" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="21" y="21" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="28" y="21" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="35" y="21" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="42" y="21" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="28" y="28" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="35" y="28" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="7" y="35" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="14" y="35" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="21" y="35" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="28" y="35" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="35" y="35" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="42" y="35" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="49" y="35" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="56" y="35" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="0" y="42" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="7" y="42" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="14" y="42" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="21" y="42" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="28" y="42" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="35" y="42" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="42" y="42" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="49" y="42" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="56" y="42" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="63" y="42" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="0" y="49" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="7" y="49" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="14" y="49" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="21" y="49" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="28" y="49" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="35" y="49" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="42" y="49" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="49" y="49" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="56" y="49" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="63" y="49" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="7" y="56" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="14" y="56" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="21" y="56" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="28" y="56" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="35" y="56" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="42" y="56" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="49" y="56" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="56" y="56" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="14" y="63" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="21" y="63" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="28" y="63" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="35" y="63" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="42" y="63" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="49" y="63" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="14" y="70" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="21" y="70" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="42" y="70" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="49" y="70" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="14" y="77" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="21" y="77" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="42" y="77" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="49" y="77" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="7" y="84" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="14" y="84" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="42" y="84" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="49" y="84" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="0" y="91" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="7" y="91" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="42" y="91" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-    <rect x="49" y="91" width="7" height="7" fill="#3aa8ff" stroke="#0a3a66" stroke-width="0.5"/>
-  </g>
-
-  <!-- Fighter B -->
-  <g id="fighterB">
-    <animateTransform attributeName="transform" type="translate"
-      values="363,110; 363,110; 273,110; 293,110; 293,110; 293,124; 273,110; 363,110; 363,110"
-      keyTimes="0; 0.14; 0.28; 0.5; 0.56; 0.62; 0.68; 0.85; 1"
-      dur="3.5s" repeatCount="indefinite"/>
-    <rect x="21" y="0" width="7" height="7" fill="#ffd3a8" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="28" y="0" width="7" height="7" fill="#ffd3a8" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="35" y="0" width="7" height="7" fill="#ffd3a8" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="42" y="0" width="7" height="7" fill="#ffd3a8" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="14" y="7" width="7" height="7" fill="#ffd3a8" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="21" y="7" width="7" height="7" fill="#ffd3a8" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="28" y="7" width="7" height="7" fill="#ffd3a8" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="35" y="7" width="7" height="7" fill="#ffd3a8" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="42" y="7" width="7" height="7" fill="#ffd3a8" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="49" y="7" width="7" height="7" fill="#ffd3a8" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="14" y="14" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="21" y="14" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="28" y="14" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="35" y="14" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="42" y="14" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="49" y="14" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="21" y="21" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="28" y="21" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="35" y="21" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="42" y="21" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="28" y="28" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="35" y="28" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="7" y="35" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="14" y="35" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="21" y="35" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="28" y="35" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="35" y="35" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="42" y="35" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="49" y="35" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="56" y="35" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="0" y="42" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="7" y="42" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="14" y="42" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="21" y="42" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="28" y="42" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="35" y="42" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="42" y="42" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="49" y="42" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="56" y="42" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="63" y="42" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="0" y="49" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="7" y="49" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="14" y="49" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="21" y="49" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="28" y="49" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="35" y="49" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="42" y="49" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="49" y="49" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="56" y="49" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="63" y="49" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="7" y="56" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="14" y="56" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="21" y="56" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="28" y="56" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="35" y="56" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="42" y="56" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="49" y="56" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="56" y="56" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="14" y="63" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="21" y="63" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="28" y="63" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="35" y="63" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="42" y="63" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="49" y="63" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="14" y="70" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="21" y="70" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="42" y="70" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="49" y="70" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="14" y="77" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="21" y="77" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="42" y="77" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="49" y="77" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="7" y="84" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="14" y="84" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="42" y="84" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="49" y="84" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="0" y="91" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="7" y="91" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="42" y="91" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-    <rect x="49" y="91" width="7" height="7" fill="#ff5a3a" stroke="#661d0a" stroke-width="0.5"/>
-  </g>
-
-  <!-- Hit spark -->
-  <g id="spark" opacity="0">
-    <animate attributeName="opacity" values="0;0;1;0.2;1;0;0;0" keyTimes="0;0.48;0.52;0.56;0.6;0.65;0.85;1" dur="3.5s" repeatCount="indefinite"/>
-    <g transform="translate(240,120)">
-      <polygon points="0,-20 6,-6 20,0 6,6 0,20 -6,6 -20,0 -6,-6" fill="#ffe600"/>
-      <polygon points="0,-11 3,-3 11,0 3,3 0,11 -3,3 -11,0 -3,-3" fill="#ffffff"/>
+  <!-- perspective grid floor -->
+  <g clip-path="url(#floorClip)">
+    <clipPath id="floorClip"><rect x="0" y="300" width="900" height="100"/></clipPath>
+    <g class="grid" stroke="#ff2d95" stroke-width="1" opacity="0.35">
+      <line x1="0" y1="300" x2="900" y2="300"/>
+      <line x1="0" y1="320" x2="900" y2="320"/>
+      <line x1="0" y1="340" x2="900" y2="340"/>
+      <line x1="0" y1="360" x2="900" y2="360"/>
+      <line x1="0" y1="380" x2="900" y2="380"/>
+      <line x1="0" y1="400" x2="900" y2="400"/>
+    </g>
+    <g stroke="#4bf0ff" stroke-width="1" opacity="0.25">
+      <line x1="90" y1="300" x2="10" y2="400"/>
+      <line x1="230" y1="300" x2="150" y2="400"/>
+      <line x1="370" y1="300" x2="330" y2="400"/>
+      <line x1="530" y1="300" x2="570" y2="400"/>
+      <line x1="670" y1="300" x2="750" y2="400"/>
+      <line x1="810" y1="300" x2="890" y2="400"/>
     </g>
   </g>
+
+  <!-- 3D pixel title HAFIS -->
+  <g class="titleBlock">
+    <text x="454" y="94" text-anchor="middle" class="pixelFont" font-size="58" fill="#3d0f66">HAFIS</text>
+    <text x="450" y="90" text-anchor="middle" class="pixelFont" font-size="58" fill="#7c1fb8">HAFIS</text>
+    <text x="446" y="86" text-anchor="middle" class="pixelFont" font-size="58" fill="#ff2d95" class="glow">HAFIS</text>
+    <text x="450" y="118" text-anchor="middle" class="pixelFont" font-size="15" fill="#4bf0ff" letter-spacing="4">SOFTWARE ENGINEER · CYBER SECURITY</text>
+  </g>
+
+  <!-- JAVA coin -->
+  <g class="coin1 coinWrap" transform="translate(190,240)">
+    <ellipse class="sh1" cx="0" cy="72" rx="55" ry="12" fill="#000000" filter="url(#soft)"/>
+    <g class="spin1">
+      <circle r="60" fill="url(#javaG)" stroke="#5a2600" stroke-width="3"/>
+      <path d="M -14 6 q -10 12 8 18 q 22 6 34 -4 q 6 -6 -4 -10" fill="none" stroke="#5a2600" stroke-width="4" stroke-linecap="round"/>
+      <path d="M -6 -6 q 14 -14 26 4" fill="none" stroke="#fff3e6" stroke-width="4" stroke-linecap="round"/>
+      <path d="M 6 -14 q 14 -12 24 2" fill="none" stroke="#fff3e6" stroke-width="4" stroke-linecap="round"/>
+      <rect x="-22" y="4" width="34" height="22" rx="3" fill="#fff3e6" stroke="#5a2600" stroke-width="3"/>
+      <path d="M 12 8 q 16 0 16 10 q 0 10 -16 10" fill="none" stroke="#fff3e6" stroke-width="4"/>
+    </g>
+  </g>
+  <text x="190" y="330" text-anchor="middle" class="pixelFont" font-size="16" fill="#ff9d5c">JAVA</text>
+
+  <!-- KOTLIN coin -->
+  <g class="coin2 coinWrap" transform="translate(450,230)">
+    <ellipse class="sh2" cx="0" cy="82" rx="55" ry="12" fill="#000000" filter="url(#soft)"/>
+    <g class="spin2">
+      <circle r="60" fill="url(#kotlinG)" stroke="#25105c" stroke-width="3"/>
+      <path d="M -22 -22 L 0 0 L -22 22 Z" fill="#e8ddff"/>
+      <path d="M -22 -22 L 24 -22 L 0 0 Z" fill="#f4eeff"/>
+      <path d="M -22 22 L 24 22 L 0 0 L 24 -22 Z" fill="#c9b6ff" opacity="0.9"/>
+    </g>
+  </g>
+  <text x="450" y="330" text-anchor="middle" class="pixelFont" font-size="16" fill="#c299ff">KOTLIN</text>
+
+  <!-- POSTGRESQL coin -->
+  <g class="coin3 coinWrap" transform="translate(710,240)">
+    <ellipse class="sh3" cx="0" cy="72" rx="55" ry="12" fill="#000000" filter="url(#soft)"/>
+    <g class="spin3">
+      <circle r="60" fill="url(#pgG)" stroke="#0a1a40" stroke-width="3"/>
+      <ellipse cx="-6" cy="4" rx="30" ry="26" fill="#eaf1ff"/>
+      <path d="M 20 -6 q 20 -4 22 14 q 1 12 -14 10 q 4 -12 -8 -24 Z" fill="#eaf1ff"/>
+      <circle cx="-16" cy="-2" r="4" fill="#122b6b"/>
+      <circle cx="4" cy="-2" r="4" fill="#122b6b"/>
+      <path d="M -22 18 q 6 10 16 4" fill="none" stroke="#122b6b" stroke-width="3" stroke-linecap="round"/>
+      <path d="M -2 20 l -4 14 M 6 20 l -2 14 M 14 18 l 0 12" stroke="#eaf1ff" stroke-width="4" stroke-linecap="round"/>
+    </g>
+  </g>
+  <text x="710" y="330" text-anchor="middle" class="pixelFont" font-size="16" fill="#8fb4ff">POSTGRESQL</text>
+
 </svg>
