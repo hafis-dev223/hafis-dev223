@@ -74,5 +74,5 @@ public class Hafis implements Developer {
 
 
 <div align="center">
-<i>⭐️ Thanks for stopping by — feel free to explore my repos!</i>
+<i>Terimakasih sudah mampir silahkan explore my repo </i>
 </div>
