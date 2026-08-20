@@ -23,6 +23,15 @@
     private String[] stack = {"Java", "Kotlin", "PostgreSQL"};
     private String currentlyLearning = "...";
     private String funFact = "...";
+
+    public void motivation(){
+      if(process){
+         returun " enjoy your process";
+
+      } else {
+         return " Don't give up; we have to fight against laziness.";
+      }
+    }
  
     public void sayHi() {
         System.out.println("Thanks for visiting my profile! 🚀");
