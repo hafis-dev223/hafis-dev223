@@ -24,7 +24,7 @@
 > READY.
 ```
 
-Gw **Hafis**, pemula di dunia coding yang baru belajar sekitar **4 bulan**.
+Gw **Hafis**, pemula di dunia coding yang baru belajar.
 Lagi nyemplung ke dua dunia sekaligus: **Cyber Security** & **Software Engineering** — pelan-pelan level up dari nol, satu bug satu XP. 🎮
 
 ---
