@@ -1,7 +1,7 @@
 <div align="center">
 
 # ⚡ Hi, I'm Hafist 👋
-  ### 🚀 Web Developer & Tech Enthusiast
+  ### full stack
 
 # HAFIS
 
