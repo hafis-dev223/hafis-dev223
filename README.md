@@ -1,11 +1,7 @@
 <div align="center">
 
-```
-┌──────────────────────────────────────────┐
-│               HAFIS.EXE                   │
-│          PLAYER PROFILE / LEVEL UP        │
-└──────────────────────────────────────────┘
-```
+# ⚡ Hi, I'm Hafist 👋
+  ### 🚀 Web Developer & Tech Enthusiast
 
 # HAFIS
 
