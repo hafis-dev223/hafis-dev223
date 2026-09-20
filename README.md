@@ -1,101 +1,163 @@
 <div align="center">
 
-# Hi, I'm Hafis 👋
+```
+┌──────────────────────────────────────────┐
+│               HAFIS.EXE                   │
+│          PLAYER PROFILE / LEVEL UP        │
+└──────────────────────────────────────────┘
+```
 
-### Beginner Developer exploring Web Development & Cyber Security
+# HAFIS
 
-*Learning fundamentals, building slowly, one commit at a time.*
+### Full-Stack Developer in Progress
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=2500&pause=800&color=38BDF8&center=true&vCenter=true&width=550&lines=%3E+leveling+up+one+project+at+a+time;%3E+learning+web+development;%3E+exploring+cyber+security;%3E+status%3A+in+progress_" alt="Typing SVG" />
+
+🎮 *Leveling up one project at a time.*
 
 </div>
 
 <br>
 
-## 🧭 About Me
+---
 
-- 🌐 Learning Web Development
-- 🛡️ Exploring Cyber Security
-- 📱 Exploring Mobile Development
-- 🐧 Learning Linux
-- 📚 Currently strengthening HTML, CSS, JavaScript, and Java fundamentals
+## 🕹️ PLAYER CARD
 
-<br>
+```
+PLAYER        : Hafis
+CLASS         : Full-Stack Developer
+CURRENT QUEST : Web Development
+SECONDARY     : Cyber Security
+EXP           : Learning
+STATUS        : ONLINE
+```
 
-## 🧩 Tech Stack
+---
 
-**Frontend**
+## 🌳 SKILL TREE
 
-<img src="https://skillicons.dev/icons?i=html,css,js&theme=dark" />
+```
+🌐 WEB
+├── HTML         ███████░░░
+├── CSS          █████░░░░░
+└── JavaScript   ████░░░░░░
 
-**Programming**
+⚔️ CYBER SECURITY
+├── Networking   ░░░░░░░░░░
+├── Linux        ░░░░░░░░░░
+└── Security     ░░░░░░░░░░
 
-<img src="https://skillicons.dev/icons?i=java,js&theme=dark" />
+📱 MOBILE
+└── Exploring...
 
-**Operating System**
+🖥️ SYSTEM / OS
+└── Exploring...
+```
 
-<img src="https://skillicons.dev/icons?i=windows,linux&theme=dark" />
+> Bar di atas cuma visual, bukan klaim kemampuan — masih di tahap fundamental.
 
-**Currently Learning**
+---
 
-<img src="https://img.shields.io/badge/Backend-0A0E17?style=for-the-badge&color=0d1117&labelColor=0d1117&logoColor=38BDF8" /> <img src="https://img.shields.io/badge/Mobile_Dev-0d1117?style=for-the-badge&labelColor=0d1117&color=38BDF8" /> <img src="https://img.shields.io/badge/Cyber_Security-0d1117?style=for-the-badge&labelColor=0d1117&color=38BDF8" />
-
-<br>
-
-## 📈 Current Learning
-
-| Skill | Status |
-|---|---|
-| HTML | Learning |
-| CSS | Learning |
-| JavaScript | Basic |
-| Java | Basic |
-| Backend | Exploring |
-| Cyber Security | Exploring |
-| Mobile Development | Exploring |
-
-<br>
-
-## 🗂️ Projects
-
-> Small builds, experiments, and learning practice — still growing.
-
-- 🏥 **Hospital Website** — HTML + CSS + JavaScript &nbsp; [View Project](#)
-- 🌐 **Web Experiments** — practice layouts & interactivity &nbsp; [View Project](#)
-- 🔐 **Cyber Security Labs** — learning-based security exercises &nbsp; [View Project](#)
-- 📱 **Mobile Experiments** — early exploration &nbsp; [View Project](#)
-
-<br>
-
-## 📊 GitHub Stats
+## 🎒 INVENTORY (Tech Stack)
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=hafis-dev223&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=38BDF8&icon_color=38BDF8&text_color=c9d1d9" width="48%" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=hafis-dev223&theme=dark&hide_border=true&background=0d1117&stroke=38BDF8&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" width="48%" />
+<img src="https://skillicons.dev/icons?i=html,css,js,java&theme=dark" />
 
 </div>
 
-<br>
+| Currently Learning | Exploring Next | Future Quest |
+|---|---|---|
+| HTML | Backend Development | Cyber Security |
+| CSS | Mobile Development | System / OS |
+| JavaScript | Linux Fundamentals | Full-Stack Architecture |
+| Java | | |
 
-## 🧭 Learning Roadmap
+---
+
+## 📜 QUEST LOG
 
 ```
-HTML/CSS
-   ↓
-JavaScript
-   ↓
-Backend
-   ↓
-Web Security
-   ↓
-Cyber Security
-   ↓
-Mobile Development
+[✓] Learn HTML fundamentals
+[✓] Learn CSS fundamentals
+[ ] Improve JavaScript
+[ ] Build more web projects
+[ ] Learn backend development
+[ ] Explore Cyber Security
+[ ] Explore Mobile Development
+[ ] Learn Linux / OS fundamentals
 ```
 
-<br>
+---
+
+## 🎮 MISSION SELECT (Projects)
+
+**MISSION 01 — Hospital Website**
+`STATUS: COMPLETED` · HTML + CSS + JavaScript · [View Project](#)
+
+**MISSION 02 — TBD**
+`STATUS: LOCKED` · belum ada project berikutnya
+
+---
+
+## 📊 STATS OVERVIEW
 
 <div align="center">
 
-*"Not there yet — but every line of code is a step closer."*
+<img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=38BDF8&icon_color=38BDF8&text_color=c9d1d9" width="48%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=38BDF8&text_color=c9d1d9" width="40%" />
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=dark&hide_border=true&background=0d1117&stroke=38BDF8&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" width="90%" />
+
+</div>
+
+---
+
+## 🏆 ACHIEVEMENTS
+
+```
+🏆 FIRST WEBSITE
+🏆 CSS UNLOCKED
+🏆 JAVASCRIPT INITIATED
+🔒 BACKEND MASTER        (locked)
+🔒 CYBER SECURITY        (locked)
+🔒 FULL-STACK            (locked)
+🔒 SYSTEM ARCHITECT      (locked)
+```
+
+---
+
+## ⚡ XP SYSTEM
+
+```
+╔════════════════════════════╗
+║       HAFIS XP SYSTEM       ║
+║                              ║
+║  Coding       +XP           ║
+║  Projects     +XP           ║
+║  Learning     +XP           ║
+║  Debugging    +XP           ║
+╚════════════════════════════╝
+```
+
+---
+
+## 📡 CONNECT WITH PLAYER
+
+<div align="center">
+
+<a href="https://github.com/YOUR_GITHUB_USERNAME"><img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=38BDF8"></a>
+<a href="#"><img src="https://img.shields.io/badge/Instagram-0d1117?style=for-the-badge&logo=instagram&logoColor=38BDF8"></a>
+<a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=38BDF8"></a>
+<a href="#"><img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=38BDF8"></a>
+
+</div>
+
+---
+
+<div align="center">
+
+> "GAME OVER? Nah.
+> Just another level."
 
 </div>
