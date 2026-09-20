@@ -63,7 +63,11 @@ STATUS        : ONLINE
 └── Exploring...
 ```
 
-> Bar di atas cuma visual, bukan klaim kemampuan — masih di tahap fundamental.
+
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+</div>
 
 ---
 
@@ -98,9 +102,17 @@ STATUS        : ONLINE
 [ ] Learn Linux / OS fundamentals
 ```
 
+<div align="center">
+  <img src="https://media.giphy.com/media/xT9IgG50Fb7Mi0prBC/giphy.gif" width="380">
+</div>
+
 ---
 
 ## 🎮 MISSION SELECT (Projects)
+
+<div align="center">
+  <img src="https://media.giphy.com/media/artj92oS5xrwqXP8N9/giphy.gif" width="320">
+</div>
 
 **MISSION 01 — Hospital Website**
 `STATUS: COMPLETED` · HTML + CSS + JavaScript · [View Project](#)
@@ -135,6 +147,10 @@ STATUS        : ONLINE
 🔒 SYSTEM ARCHITECT      (locked)
 ```
 
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="90">
+</div>
+
 ---
 
 ## ⚡ XP SYSTEM
@@ -166,6 +182,8 @@ STATUS        : ONLINE
 ---
 
 <div align="center">
+
+<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="400">
 
 > "GAME OVER? Nah.
 > Just another level."
