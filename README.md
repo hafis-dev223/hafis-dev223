@@ -79,21 +79,21 @@ java:        [■■■■░░░░░░]  40%   # OOP module - berkembang
 ## 🐍 `~/contributions` — activity trace
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/USERNAME/USERNAME/output/github-contribution-grid-snake-dark.svg" width="100%">
+  <img src="https://raw.githubusercontent.com/hafis-dev223/hafis-dev223/output/github-contribution-grid-snake-dark.svg" width="100%">
 </p>
 
-> ⚙️ Ganti `USERNAME` di atas, lalu setup **GitHub Action `Platane/snk`** biar animasi ularnya otomatis update tiap hari dari grafik kontribusi kamu.
+> ⚙️ Username udah diset ke `hafis-dev223`. Tinggal setup **GitHub Action `Platane/snk`** (cari repo-nya di GitHub, ikuti instruksinya) biar animasi ularnya otomatis update tiap hari dari grafik kontribusi kamu.
 
 ---
 
 ## 📊 `~/stats`
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=USERNAME&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=39FF14&icon_color=00FFFF&text_color=c9d1d9" />
+  <img src="https://github-readme-stats.vercel.app/api?username=hafis-dev223&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=39FF14&icon_color=00FFFF&text_color=c9d1d9" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=USERNAME&theme=highcontrast&background=0d1117&stroke=39FF14&ring=00FFFF&fire=39FF14&currStreakLabel=39FF14" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=hafis-dev223&theme=highcontrast&background=0d1117&stroke=39FF14&ring=00FFFF&fire=39FF14&currStreakLabel=39FF14" />
 </p>
 
 ---
@@ -117,5 +117,5 @@ java:        [■■■■░░░░░░]  40%   # OOP module - berkembang
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=USERNAME&label=CONNECTIONS&color=0d1117&style=for-the-badge&labelColor=000000" alt="visitor count"/>
+  <img src="https://komarev.com/ghpvc/?username=hafis-dev223&label=CONNECTIONS&color=0d1117&style=for-the-badge&labelColor=000000" alt="visitor count"/>
 </p>
