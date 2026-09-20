@@ -1,13 +1,19 @@
 <div align="center">
 
-# ⚡ Hi, I'm Hafist 👋
-  ### full stack 
+```
+┌──────────────────────────────────────────┐
+│               HAFIS.EXE                   │
+│          PLAYER PROFILE / LEVEL UP        │
+└──────────────────────────────────────────┘
+```
 
-
+# HAFIS
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=800&color=38BDF8&center=true&vCenter=true&width=600&lines=Full-Stack+Developer+in+Progress;%3E+leveling+up+one+project+at+a+time;%3E+learning+web+development;%3E+exploring+cyber+security;%3E+status%3A+in+progress_" alt="Typing SVG" />
 
 🎮 *Leveling up one project at a time.*
+
+<img src="https://user-images.githubusercontent.com/74038190/212741999-016fddbd-617a-4448-8042-0ecf907aea25.gif" width="200">
 
 </div>
 
@@ -142,7 +148,7 @@ STATUS        : ONLINE
 ```
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="90">
+  <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="120">
 </div>
 
 ---
