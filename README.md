@@ -1,121 +1,121 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:00FF41,100:1a1a2e&height=200&section=header&text=WELCOME%20TO%20MY%20REALM&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=A%20Wild%20Developer%20Appears!&descAlignY=55&descSize=18"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:0d1117,100:000000&height=200&section=header&text=%3C%20SYSTEM.INIT()%20%2F%3E&fontSize=36&fontColor=39FF14&animation=fadeIn&fontAlignY=35&desc=root%40localhost%3A~%23%20accessing_profile...&descAlignY=55&descSize=16&descColor=00FFFF"/>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=16&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=600&lines=LOADING+PLAYER+PROFILE...;INITIALIZING+SKILL+TREE...;ENTERING+BATTLE+MODE...;PRESS+START+TO+CONTINUE" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=2500&pause=800&color=39FF14&center=true&vCenter=true&width=650&lines=%3E+whoami;%3E+full-stack+developer;%3E+aspiring+cybersecurity+specialist;%3E+building+in+silence...;%3E+access_granted_" alt="Typing SVG" />
 </p>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/xUPGcguWZHRC2HyBRS/giphy.gif" width="450">
-</p>
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+  <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="100%">
 </p>
 
 ---
 
-## 🎮 PLAYER STATS
+<p align="center">
+  <img src="https://img.shields.io/badge/STATUS-ONLINE-39FF14?style=flat-square&labelColor=0d0d0d&logo=nodedotgreen" />
+  <img src="https://img.shields.io/badge/ACCESS-LEVEL_1-00FFFF?style=flat-square&labelColor=0d0d0d" />
+  <img src="https://img.shields.io/badge/MODE-STEALTH-black?style=flat-square&labelColor=0d0d0d&color=39FF14" />
+</p>
+
+## 📟 `root@profile:~#` whoami
+
+```bash
+$ cat identity.log
+------------------------------------------
+[NAME]      : hafis
+[ROLE]      : Full-Stack Developer (In Training)
+[FOCUS]     : Cyber Security | Web | Mobile | OS Internals
+[LANGUAGE]  : ID
+[STATUS]    : Compiling knowledge... please wait
+------------------------------------------
+```
+
+---
+
+## 🗂️ `~/skills` — installed modules
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,java,linux,git&theme=dark" />
+</p>
 
 ```yaml
-Nama:        Muhamad Hafiidh
-Class:       Full-Stack Developer (Newbie Tier)
-Fokus:       Cyber Security | Web Dev | Mobile Dev | OS Development
-Status:      Leveling Up 🌱
-Guild:       Solo Player (open to party invites!)
+html:        [■■░░░░░░░░]  20%   # baru instalasi
+css:         [■■■░░░░░░░]  30%   # basic styling module
+javascript:  [■■■░░░░░░░]  30%   # logic core - dasar
+java:        [■■■■░░░░░░]  40%   # OOP module - berkembang
 ```
 
----
-
-## 🧩 SKILL TREE
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,java&theme=dark" />
-</p>
-
-<p align="center">⚔️ <b>BATTLE STATUS: TRAINING ARC</b> ⚔️</p>
-
-| Skill | HP Bar (Mastery) | Rank |
-|-------|-------------------|------|
-| HTML  | 🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ 20% | 🥉 Newbie |
-| CSS   | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ 30% | 🥉 Newbie |
-| JavaScript | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ 30% | 🥉 Newbie |
-| Java  | 🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜ 40% | 🥈 Apprentice |
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="100">
-</p>
-
-> 🔓 *Skill baru terbuka seiring quest diselesaikan...*
+<p align="center"><i>// modul lain masih ter-encrypt, menunggu proses upgrade</i></p>
 
 ---
 
-## 🗺️ QUEST LOG (Bidang yang Dijelajahi)
-
-- 🛡️ **Cyber Security** — belajar melindungi sistem dari serangan musuh
-- 🌐 **Web Development** — membangun dunia digital dari front-end sampai back-end
-- 📱 **Mobile Development** — merancang aplikasi untuk dibawa kemana saja
-- 💻 **Operating System** — menyelami inti sistem, level tersulit dalam game ini
-
----
-
-## ⚡ CURRENT MISSION
+## 🛰️ `~/exploration` — active domains
 
 ```diff
-+ Mempelajari fundamental HTML, CSS, JS lebih dalam
-+ Membangun proyek kecil sebagai bahan latihan
-! Menjelajahi dasar-dasar Cyber Security
-- Belum menguasai pengembangan OS (boss level, masih disegel)
++ [WEB]        membangun struktur front-end & back-end
++ [MOBILE]     eksplorasi pengembangan aplikasi
+! [CYBERSEC]   mempelajari cara sistem diserang & dipertahankan
+- [OS DEV]     locked — deep system level, belum ter-decrypt
 ```
 
 <p align="center">
-  <img src="https://media.giphy.com/media/artj92oS5xrwqXP8N9/giphy.gif" width="300">
+  <img src="https://user-images.githubusercontent.com/74038190/213866269-5d00981c-7c98-46d7-8a8e-16f462f15227.gif" width="500">
 </p>
 
 ---
 
-## 📊 PLAYER ACTIVITY
+## 📡 `~/logs` — current process
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=USERNAME&show_icons=true&theme=chartreuse-dark&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=USERNAME&theme=highcontrast" />
-</p>
-
-> Ganti `USERNAME` di atas dengan username GitHub kamu ya!
+```bash
+[  OK  ] Loading fundamentals: HTML / CSS / JS
+[  OK  ] Studying Java OOP concepts
+[ WAIT ] Exploring cybersecurity fundamentals
+[ FAIL ] OS development — access denied, training required
+```
 
 ---
 
-## 🕹️ CONNECT & CO-OP
+## 🐍 `~/contributions` — activity trace
 
 <p align="center">
-  <a href="#"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
+  <img src="https://raw.githubusercontent.com/USERNAME/USERNAME/output/github-contribution-grid-snake-dark.svg" width="100%">
 </p>
 
-## 🐍 CONTRIBUTION BATTLEFIELD
+> ⚙️ Ganti `USERNAME` di atas, lalu setup **GitHub Action `Platane/snk`** biar animasi ularnya otomatis update tiap hari dari grafik kontribusi kamu.
+
+---
+
+## 📊 `~/stats`
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/USERNAME/USERNAME/output/github-contribution-grid-snake.svg" width="100%">
+  <img src="https://github-readme-stats.vercel.app/api?username=USERNAME&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=39FF14&icon_color=00FFFF&text_color=c9d1d9" />
 </p>
 
-> 💡 *Ular kontribusi ini bukan otomatis muncul — kamu perlu setup **GitHub Action "snk"** dulu.*
-> Cari repo `Platane/snk` di GitHub, ikuti panduannya (tinggal copy-paste workflow), lalu ganti `USERNAME` di atas dengan username kamu.
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=USERNAME&theme=highcontrast&background=0d1117&stroke=39FF14&ring=00FFFF&fire=39FF14&currStreakLabel=39FF14" />
+</p>
+
+---
+
+## 🔗 `~/connect`
+
+<p align="center">
+  <a href="#"><img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=39FF14"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Discord-000000?style=for-the-badge&logo=discord&logoColor=00FFFF"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=39FF14"></a>
+</p>
 
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:00FF41,100:1a1a2e&height=150&section=footer&animation=twinkling"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:0d1117,100:000000&height=150&section=footer&animation=twinkling"/>
 </p>
 
 <p align="center">
-  <i>"Setiap error adalah XP menuju level berikutnya."</i> 🎮
+  <code style="color:#39FF14">// end of transmission_</code>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=USERNAME&label=VISITOR+COUNT&color=00FF41&style=for-the-badge" alt="visitor count"/>
+  <img src="https://komarev.com/ghpvc/?username=USERNAME&label=CONNECTIONS&color=0d1117&style=for-the-badge&labelColor=000000" alt="visitor count"/>
 </p>
