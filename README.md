@@ -9,9 +9,7 @@
 
 # HAFIS
 
-### Full-Stack Developer in Progress
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=2500&pause=800&color=38BDF8&center=true&vCenter=true&width=550&lines=%3E+leveling+up+one+project+at+a+time;%3E+learning+web+development;%3E+exploring+cyber+security;%3E+status%3A+in+progress_" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=800&color=38BDF8&center=true&vCenter=true&width=600&lines=Full-Stack+Developer+in+Progress;%3E+leveling+up+one+project+at+a+time;%3E+learning+web+development;%3E+exploring+cyber+security;%3E+status%3A+in+progress_" alt="Typing SVG" />
 
 🎮 *Leveling up one project at a time.*
 
@@ -63,7 +61,7 @@ STATUS        : ONLINE
 └── Exploring...
 ```
 
-
+> Bar di atas cuma visual, bukan klaim kemampuan — masih di tahap fundamental.
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
