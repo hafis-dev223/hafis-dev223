@@ -1,48 +1,94 @@
-<div align="center">
+<h1 align="center">
+  ⚔️ WELCOME TO MY REALM ⚔️
+</h1>
 
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=16&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=600&lines=LOADING+PLAYER+PROFILE...;INITIALIZING+SKILL+TREE...;PRESS+START+TO+CONTINUE" alt="Typing SVG" />
+</p>
 
-
-<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=20&duration=3000&pause=800&color=FF2D95&center=true&vCenter=true&width=600&lines=HELLO+WORLD%2C+I'M+HAFIS;PLAYER+1+HAS+ENTERED+THE+GAME;LOADING+SKILLS...+PLEASE+WAIT" alt="Typing SVG" />
-
-</div>
-
-<br/>
-
-<div align="center">
-
-![Status](https://img.shields.io/badge/STATUS-PLAYER%20LEVEL%201-ff2d95?style=for-the-badge&labelColor=0a0420)
-![Continue](https://img.shields.io/badge/CONTINUE%3F-YES-4bf0ff?style=for-the-badge&labelColor=0a0420)
-
-</div>
+<p align="center">
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="400">
+</p>
 
 ---
 
-### 🕹️ ABOUT ME
+## 🎮 PLAYER STATS
 
-```
-> LOAD "HAFIS.EXE",8,1
-> READY.
+```yaml
+Nama:        hafiidh
+Class:       Full-Stack Developer (Newbie Tier)
+Fokus:       Cyber Security | Web Dev | Mobile Dev | OS Development
+Status:      Leveling Up 🌱
+Guild:       Solo Player (open to party invites!)
 ```
 
-Gw **Hafis**, pemula di dunia coding yang baru belajar.
-Lagi nyemplung ke dua dunia sekaligus: **Cyber Security** & **Software Engineering** — pelan-pelan level up dari nol, satu bug satu XP. 🎮
+---
+
+## 🧩 SKILL TREE
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,java" />
+</p>
+
+| Skill | Level | Progress Bar |
+|-------|-------|--------------|
+| HTML  | ⭐ Baru Mulai | `██░░░░░░░░` 20% |
+| CSS   | ⭐ Dasar | `███░░░░░░░` 30% |
+| JavaScript | ⭐ Dasar | `███░░░░░░░` 30% |
+| Java  | ⭐⭐ Berkembang | `████░░░░░░` 40% |
+
+> 🔓 *Skill baru terbuka seiring quest diselesaikan...*
 
 ---
 
-### 🎮 TECH STACK
+## 🗺️ QUEST LOG (Bidang yang Dijelajahi)
 
-<div align="center">
-
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-
-</div>
+- 🛡️ **Cyber Security** — belajar melindungi sistem dari serangan musuh
+- 🌐 **Web Development** — membangun dunia digital dari front-end sampai back-end
+- 📱 **Mobile Development** — merancang aplikasi untuk dibawa kemana saja
+- 💻 **Operating System** — menyelami inti sistem, level tersulit dalam game ini
 
 ---
 
-<div align="center">
+## ⚡ CURRENT MISSION
 
-`INSERT COIN TO CONTINUE...`
+```diff
++ Mempelajari fundamental HTML, CSS, JS lebih dalam
++ Membangun proyek kecil sebagai bahan latihan
+! Menjelajahi dasar-dasar Cyber Security
+- Belum menguasai pengembangan OS (boss level, masih disegel)
+```
 
-</div>
+---
+
+## 📊 PLAYER ACTIVITY
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=USERNAME&show_icons=true&theme=chartreuse-dark&hide_border=true" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=USERNAME&theme=highcontrast" />
+</p>
+
+> Ganti `USERNAME` di atas dengan username GitHub kamu ya!
+
+---
+
+## 🕹️ CONNECT & CO-OP
+
+<p align="center">
+  <a href="#"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
+</p>
+
+---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FF41,100:1a1a2e&height=120&section=footer"/>
+</p>
+
+<p align="center">
+  <i>"Setiap error adalah XP menuju level berikutnya."</i> 🎮
+</p>
