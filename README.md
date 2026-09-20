@@ -19,6 +19,12 @@
 
 <br>
 
+<div align="center">
+  <img src="https://media.giphy.com/media/xUPGcguWZHRC2HyBRS/giphy.gif" width="420">
+</div>
+
+<br>
+
 ---
 
 ## 🕹️ PLAYER CARD
@@ -41,6 +47,9 @@ STATUS        : ONLINE
 ├── HTML         ███████░░░
 ├── CSS          █████░░░░░
 └── JavaScript   ████░░░░░░
+
+🧠 PROGRAMMING
+└── Java         ██████░░░░   (OOP + Collections/HashMap)
 
 ⚔️ CYBER SECURITY
 ├── Networking   ░░░░░░░░░░
@@ -80,6 +89,7 @@ STATUS        : ONLINE
 ```
 [✓] Learn HTML fundamentals
 [✓] Learn CSS fundamentals
+[✓] Learn Java Collections (HashMap)
 [ ] Improve JavaScript
 [ ] Build more web projects
 [ ] Learn backend development
