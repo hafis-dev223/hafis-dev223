@@ -1,9 +1,9 @@
 <div align="center">
 
 # ⚡ Hi, I'm Hafist 👋
-  ### full stack
+  ### full stack 
 
-# HAFIS
+
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=800&color=38BDF8&center=true&vCenter=true&width=600&lines=Full-Stack+Developer+in+Progress;%3E+leveling+up+one+project+at+a+time;%3E+learning+web+development;%3E+exploring+cyber+security;%3E+status%3A+in+progress_" alt="Typing SVG" />
 
