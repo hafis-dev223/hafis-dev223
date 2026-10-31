@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./profile-title.svg" width="100%" alt="Hi, I'm Muhamad Hafiidh — Java and Web Development. One year of coding." />
+  <img src="./profile-title.svg" width="100%" alt="Hi, I'm Muhamad Hafiidh —  Web Development. One year of coding." />
 </p>
 
 <p align="center">
