@@ -249,6 +249,5 @@
 
 
 
-## 👻 Pac-Man Contributions
 
 ![Pac-Man](https://raw.githubusercontent.com/hafis-dev223/hafis-dev223/pacman-output/pacman-contribution-graph-dark.svg)
