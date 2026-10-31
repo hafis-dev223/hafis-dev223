@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="350" viewBox="0 0 1200 350" role="img" aria-labelledby="title desc">
+  <title id="title">Hi, I'm Muhamad Hafiidh</title>
+  <desc id="desc">An animated greeting from Muhamad Hafiidh, a Java and web development learner from Indonesia with one year of coding experience.</desc>
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0b1224"/><stop offset="1" stop-color="#10172b"/>
+    </linearGradient>
+    <linearGradient id="name-gradient" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#67e8f9"/><stop offset=".48" stop-color="#60a5fa"/><stop offset="1" stop-color="#c4b5fd"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#38bdf8"/><stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#93c5fd" stroke-opacity=".045"/>
+    </pattern>
+    <filter id="glow"><feGaussianBlur stdDeviation="42"/></filter>
+    <clipPath id="bounds"><rect width="1200" height="350" rx="22"/></clipPath>
+    <clipPath id="name-reveal">
+      <rect x="62" y="123" width="600" height="70">
+        <animate attributeName="width" values="2;2;38;74;110;146;182;218;254;290;326;362;398;434;470;506;542;542;2;2" keyTimes="0.000000;0.080000;0.100000;0.120000;0.140000;0.160000;0.180000;0.200000;0.220000;0.240000;0.260000;0.280000;0.300000;0.320000;0.340000;0.360000;0.380000;0.850000;0.980000;1.000000" calcMode="discrete" dur="10s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+  </defs>
+  <style>
+    .sans{font-family:"DejaVu Sans","Segoe UI",Arial,sans-serif}
+    .mono{font-family:"DejaVu Sans Mono",Consolas,monospace}
+    .still-name{display:none}
+    @media(prefers-reduced-motion:reduce){.typed-name,.cursor,.wave-motion,.orbit-motion{display:none}.still-name{display:block}}
+  </style>
+  <g clip-path="url(#bounds)">
+    <rect width="1200" height="350" rx="22" fill="url(#surface)"/>
+    <rect width="1200" height="350" fill="url(#grid)"/>
+    <circle cx="1130" cy="38" r="170" fill="#8b5cf6" opacity=".15" filter="url(#glow)"/>
+    <circle cx="50" cy="350" r="130" fill="#0ea5e9" opacity=".09" filter="url(#glow)"/>
+    <path d="M0 1H1200" stroke="url(#rim)" stroke-opacity=".7" stroke-width="2"/>
+
+    <circle cx="68" cy="46" r="4" fill="#4ade80"/>
+    <circle cx="68" cy="46" r="4" fill="none" stroke="#4ade80" opacity=".3">
+      <animate attributeName="r" values="4;11;4" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".4;0;.4" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <text class="mono" x="83" y="50" font-size="11" fill="#94a3b8" letter-spacing="2">LEARNING. BUILDING. REPEATING.</text>
+
+    <text class="sans" x="64" y="113" font-size="28" fill="#cbd5e1">Hi, I'm</text>
+    <text class="sans typed-name" x="64" y="177" font-size="54" font-weight="700" textLength="540" lengthAdjust="spacingAndGlyphs" fill="url(#name-gradient)" clip-path="url(#name-reveal)">Muhamad Hafiidh</text>
+    <text class="sans still-name" x="64" y="177" font-size="54" font-weight="700" textLength="540" lengthAdjust="spacingAndGlyphs" fill="url(#name-gradient)">Muhamad Hafiidh</text>
+    <rect class="cursor" x="609" y="132" width="3" height="53" rx="1.5" fill="#a5b4fc">
+      <animate attributeName="x" values="69;69;105;141;177;213;249;285;321;357;393;429;465;501;537;573;609;609;69;69" keyTimes="0.000000;0.080000;0.100000;0.120000;0.140000;0.160000;0.180000;0.200000;0.220000;0.240000;0.260000;0.280000;0.300000;0.320000;0.340000;0.360000;0.380000;0.850000;0.980000;1.000000" calcMode="discrete" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0" calcMode="discrete" dur=".85s" repeatCount="indefinite"/>
+    </rect>
+
+    <text class="sans" x="66" y="224" font-size="18" fill="#e2e8f0">Java &amp; Web Development</text>
+    <text class="sans" x="66" y="253" font-size="14" fill="#94a3b8">Learning by building, one project at a time.</text>
+
+    <rect x="64" y="279" width="166" height="28" rx="14" fill="#10243a" stroke="#1e4360"/>
+    <circle cx="81" cy="293" r="3" fill="#38bdf8"/>
+    <text class="mono" x="94" y="297" font-size="10.5" fill="#bae6fd" letter-spacing=".5">1 YEAR OF CODING</text>
+    <rect x="242" y="279" width="116" height="28" rx="14" fill="#191e35" stroke="#343557"/>
+    <text class="mono" x="259" y="297" font-size="10.5" fill="#c4b5fd" letter-spacing="1.1">INDONESIA</text>
+
+    <circle cx="970" cy="169" r="100" fill="#0b1327" opacity=".65"/>
+    <circle cx="970" cy="169" r="101" fill="none" stroke="#334155" stroke-opacity=".8"/>
+    <circle cx="970" cy="169" r="82" fill="none" stroke="url(#rim)" stroke-opacity=".5"/>
+    <g class="orbit-motion">
+      <animateTransform attributeName="transform" type="rotate" from="0 970 169" to="360 970 169" dur="24s" repeatCount="indefinite"/>
+      <circle cx="1071" cy="169" r="4" fill="#67e8f9"/>
+      <circle cx="869" cy="169" r="3" fill="#a78bfa"/>
+    </g>
+
+    <g transform="translate(925 106)">
+      <g>
+        <animateTransform class="wave-motion" attributeName="transform" type="rotate" values="-10 44 102;12 44 102;-10 44 102;12 44 102;-10 44 102;0 44 102;0 44 102" keyTimes="0;.12;.24;.36;.48;.6;1" dur="4s" repeatCount="indefinite"/>
+        <path d="M26 60V22Q26 12 34 12Q42 12 42 22V52L45 14Q46 5 54 6Q62 7 60 17L58 55L66 23Q68 14 75 17Q83 19 79 28L70 67L78 43Q82 34 89 38Q96 42 92 51L79 89Q76 117 54 121Q34 123 21 109L1 87Q-6 80 1 74Q8 68 15 76L26 88Z" fill="#f8d887" stroke="#d1a653" stroke-width="2.4" stroke-linejoin="round"/>
+        <path d="M27 83Q43 70 62 78M29 89Q43 86 49 98" fill="none" stroke="#ce9e49" stroke-width="2.3" stroke-linecap="round"/>
+      </g>
+      <path d="M100 35Q111 47 110 60M109 27Q124 44 122 63" fill="none" stroke="#67e8f9" stroke-width="2.5" stroke-linecap="round" opacity=".8">
+        <animate attributeName="opacity" values=".3;1;.3" dur="2s" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <rect x="821" y="70" width="83" height="29" rx="8" fill="#111e33" stroke="#28405b"/>
+    <text class="mono" x="838" y="89" font-size="12" fill="#7dd3fc">&lt;hello/&gt;</text>
+    <rect x="1038" y="247" width="90" height="29" rx="8" fill="#1b1b36" stroke="#39385d"/>
+    <text class="mono" x="1058" y="266" font-size="12" fill="#c4b5fd">.java</text>
+    <text class="mono" x="970" y="318" text-anchor="middle" font-size="9.5" fill="#64748b" letter-spacing="2">STILL LEARNING. ALWAYS BUILDING.</text>
+  </g>
+  <rect x=".75" y=".75" width="1198.5" height="348.5" rx="21.25" fill="none" stroke="#27334d" stroke-width="1.5"/>
+</svg>
