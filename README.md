@@ -61,12 +61,12 @@
 
 <br /><br />
 
-<img src="https://streak-stats.demolab.com?user=YOUR_GITHUB_USERNAME&amp;theme=chartreuse-dark&amp;hide_border=false&amp;border=6B7280&amp;border_radius=5" width="100%" alt="Hafis GitHub contribution streak" />
+<img src="https://streak-stats.demolab.com?user=hafis-dev223&amp;theme=chartreuse-dark&amp;hide_border=false&amp;border=6B7280&amp;border_radius=5" width="100%" alt="Hafis GitHub contribution streak" />
 
 </td>
 <td width="43%" valign="top">
 
-<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&amp;theme=chartreuse-dark&amp;hide_border=false&amp;border_color=6B7280&amp;border_radius=5&amp;langs_count=8&amp;card_width=320" width="100%" alt="Most used languages from Hafis's GitHub repositories" />
+<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=hafis-dev223&amp;theme=chartreuse-dark&amp;hide_border=false&amp;border_color=6B7280&amp;border_radius=5&amp;langs_count=8&amp;card_width=320" width="100%" alt="Most used languages from Hafis's GitHub repositories" />
 
 </td>
 </tr>
@@ -247,5 +247,4 @@
   <sub>Muhamad Hafiidh · One year in. Still building.</sub>
 </p>
 
-<!-- Banner & wave animations: https://github.com/ashu-guo/ashu-guo -->
 
