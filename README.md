@@ -74,10 +74,10 @@
 
 ---
 
-> **Main Focus:** JavaScript & Web3 Ecosystem Development. Building decentralized applications (dApps), smart contracts, and high-performance Web UI.
+> **Main Focus:** JavaScript & Web3 Ecosystem Development.a Building decentralized applications (dApps), smart contracts, and high-performance Web UI.
 > 
 
-<sub>Main focus: Java, HTML, CSS, and JavaScript. Also exploring Python, C++, and database fundamentals.</sub>
+<sub>Main focus: Java, HTML, CSS, and JavaScript and tools web 3,Also exploring Python, C++, and database fundamentals.</sub>
 
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="36" height="36" alt="Animated code icon" /> My Statistics
 
