@@ -2,7 +2,7 @@
   <img src="download.jpg" alt="banner" width="100%" />
 </p>
 
-<h2 align="center">Hi 👋, I'm Hafis</h2>
+<h2 align="center">Hi 👋, I'm Hafis 17yo</h2>
 
 <div align="center">
 
