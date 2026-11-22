@@ -45,9 +45,9 @@ My goal is simple: write clean code, ship real projects, and grow into a full-st
 
 <p align="center">
   <a href="https://github.com/hafis-dev223"><img src="https://skillicons.dev/icons?i=github&theme=dark" alt="GitHub" /></a>
-  <a href="https://instagram.com/USERNAME"><img src="https://skillicons.dev/icons?i=instagram&theme=dark" alt="Instagram" /></a>
-  <a href="https://linkedin.com/in/USERNAME"><img src="https://skillicons.dev/icons?i=linkedin&theme=dark" alt="LinkedIn" /></a>
-  <a href="mailto:EMAIL@example.com"><img src="https://skillicons.dev/icons?i=gmail&theme=dark" alt="Email" /></a>
+  <a href="https://www.instagram.com/makhlukversi.betav12"><img src="https://skillicons.dev/icons?i=instagram&theme=dark" alt="Instagram" /></a>
+  <a href="none"><img src="https://skillicons.dev/icons?i=linkedin&theme=dark" alt="LinkedIn" /></a>
+  <a href="none"><img src="https://skillicons.dev/icons?i=gmail&theme=dark" alt="Email" /></a>
 </p>
 
 <h2 align="center">💻 Tech Stack</h2>
