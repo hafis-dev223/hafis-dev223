@@ -24,11 +24,11 @@
 <tr>
 <td valign="top" width="62%">
 
-**Hafis**, here — a Software Engineering student from Indonesia, focused on Java and web development.
+**Hafis**, here — a Software Engineering student from Indonesia 17yo.
 
 I'm one year into coding and learn best by building small projects and iterating on them.
 
-Currently learning **HTML, CSS, and JavaScript**, while strengthening my foundation in **Java (OOP, Collections, HashMap)**. I'm also exploring **cybersecurity** and **Web3**.
+Currently learning **WEB3 Cyber Securyti Fullstack **
 
 My goal is simple: write clean code, ship real projects, and grow into a full-stack developer.
 
