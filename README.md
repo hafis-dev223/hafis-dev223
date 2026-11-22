@@ -6,7 +6,7 @@
 
 <div align="center">
 
-<h3>Student Developer · Java & Web</h3>
+<h3>Full-Stack & Web3 Developer</h3>
 
 <code>learn. build. repeat.</code>
 
