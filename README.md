@@ -53,7 +53,7 @@ My goal is simple: write clean code, ship real projects, and grow into a full-st
 <h2 align="center">💻 Tech Stack</h2>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,html,css,js,git,github,vscode&theme=dark&perline=7" alt="Tech stack" />
+  <img src="https://skillicons.dev/icons?i=java,spring,py,cpp,rust,solidity,html,css,js,ts,react,tailwind,postgres,git,github,vscode&theme=dark&perline=8" alt="Tech stack" />
 </p>
 
 <h2 align="center">📊 GitHub Stats</h2>
