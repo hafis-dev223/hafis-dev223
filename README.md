@@ -35,7 +35,7 @@ My goal is simple: write clean code, ship real projects, and grow into a full-st
 </td>
 <td valign="middle" align="center" width="38%">
 
-<img src="Code.jpg" width="250" alt="Hafis" />
+<img src="Code.jpg" width="300" alt="Hafis" />
 
 </td>
 </tr>
